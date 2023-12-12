@@ -1,0 +1,22 @@
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+form > h5 {
+    color: #32b9b9;
+    font-weight: 400;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
