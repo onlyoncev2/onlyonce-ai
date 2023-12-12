@@ -1,22 +1,55 @@
+.svg-icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
 #header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20pt;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20pt;
+}
+
+#buttons > button {
+  max-width: 250pt;
 }
 
 h2 {
-    font-size: 14pt;
-    font-weight: 600;
+  font-size: 14pt;
+  font-weight: 600;
 }
 
 form > h5 {
-    color: #32b9b9;
-    font-weight: 400;
-    text-align: center;
+  color: #018bd3;
+  font-weight: 400;
+  text-align: center;
+}
+
+form img {
+  margin: 5pt;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20pt;
 }
