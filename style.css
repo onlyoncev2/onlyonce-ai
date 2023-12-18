@@ -34,6 +34,25 @@ body {
   gap: 20pt;
 }
 
+#buttons svg {
+  margin-top:-5px;
+}
+
+#input {
+  position: relative;
+}
+
+#input > svg {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  opacity: 0.8;
+}
+
+#input > textarea {
+  padding: 20px 60px;
+}
+
 #buttons > button {
   max-width: 250pt;
 }
