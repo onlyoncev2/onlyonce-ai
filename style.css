@@ -40,6 +40,8 @@ body {
 
 #input {
   position: relative;
+  max-width: 650px;
+  margin: 0px auto;
 }
 
 #input > svg {
