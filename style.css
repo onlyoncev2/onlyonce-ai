@@ -38,6 +38,11 @@ body {
   margin-top: -5px;
 }
 
+.btn {
+  font-size: 10pt;
+  padding: 10px;
+}
+
 #input {
   position: relative;
   max-width: 650px;
@@ -51,12 +56,8 @@ body {
   opacity: 0.8;
 }
 
-#input > textarea {
+#input input {
   padding: 15px 55px;
-}
-
-#buttons > button {
-  max-width: 250pt;
 }
 
 #app {
@@ -76,7 +77,8 @@ h2 {
 }
 
 form h5 {
-  padding: 20px 0;
+  font-size: 12pt;
+  padding: 60px 0;
   color: #018bd3;
   font-weight: 400;
   text-align: center;
@@ -87,7 +89,27 @@ form img {
 }
 
 footer {
+  font-size: 13pt;
   display: flex;
   justify-content: center;
   gap: 20pt;
+  border-bottom: 1px solid #dadce0;
+  background: #e6e6e6;
+  color: #202124;
+}
+
+footer > div {
+  display:flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+footer a {
+  color:#000;
+}
+
+footer #links {
+  display: flex;
+  gap: 20px;
+  font-size: 10pt;
 }
