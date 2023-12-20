@@ -41,6 +41,15 @@ body {
 .btn {
   font-size: 10pt;
   padding: 10px;
+  background: #e6e6e6;
+  color:#000;
+  border: 1px solid rgb(180, 180, 180);
+}
+
+.btn:hover {
+  background: #c2c2c2;
+  color:#000;
+  border: 1px solid rgb(92, 92, 92);
 }
 
 #input {
@@ -88,6 +97,7 @@ form h5 {
 form img {
   margin: 5pt;
 }
+
 
 footer {
   font-size: 13pt;
