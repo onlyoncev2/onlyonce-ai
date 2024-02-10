@@ -66,6 +66,15 @@ body {
   opacity: 0.8;
 }
 
+#input > button {
+  position: absolute;
+  right: 20px;
+  top: 7px;
+  width: 150px;
+  font-size: 12pt;
+  padding: 10px;
+}
+
 #input input {
   padding: 15px 55px;
 }
